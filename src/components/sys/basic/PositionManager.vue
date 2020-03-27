@@ -54,6 +54,7 @@
             </el-table>
             <el-button @click="deleteManyPosition" size="small" type="danger" style="margin-top: 10px;" :disabled="multipleSelection.length==0">批量删除</el-button>
         </div>
+        <!--职位更新区域-->
         <el-dialog
                 title="提示"
                 :visible.sync="dialogVisible"
